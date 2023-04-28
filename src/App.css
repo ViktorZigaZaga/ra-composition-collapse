@@ -1,0 +1,29 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"); */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.collapsible-content {
+  display: block;
+  padding-top: 2rem;
+  height: auto;
+}
+
+.collapsible-content-collapsed {
+  height: 0rem;
+  overflow: hidden;
+  visibility: hidden;
+  transition: height 0.5s ease 0s;
+}
+
+.collapsible-content-expanded {
+  height: 45rem;
+  transition: height 0.5s ease 0s;
+  width: 17rem;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
